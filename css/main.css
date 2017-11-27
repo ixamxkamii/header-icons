@@ -1,0 +1,26 @@
+header {
+  font-family: 'Merriweather', serif;
+  color: #fff;
+  text-align: center;
+  background-color: #d05c2e;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  color: #fff;
+  text-align: center;
+  background-color: #d05c2e;
+}
+.nav {
+  margin: .3em;
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #fff;
+}
+
+.nav li {
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  color: #fff;
+}
