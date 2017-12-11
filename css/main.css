@@ -1,26 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 header {
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   color: #fff;
   text-align: center;
   background-color: #d05c2e;
+  line-height: 1.5;
 }
 
 h1 {
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   color: #fff;
   text-align: center;
   background-color: #d05c2e;
+  font-size: 2rem;
+  margin: 0;
+  padding: .5em;
 }
+
+.left {
+  float: left;
+  width: 40px;
+  padding: .5em 0 0;
+}
+
+.right {
+  float: right;
+  width: 40px;
+  padding: .5em 0 0;
+}
+
 .nav {
-  margin: .3em;
+  margin: 0;
   list-style-type: none;
   text-align: center;
-  font-family: 'Merriweather', serif;
-  color: #fff;
+  padding: 0;
+  width: 100%;
 }
 
 .nav li {
   display: inline-block;
-  font-family: 'Merriweather', serif;
+  float: left;
+  width: 33.3333%;
+}
+
+a {
+  font-family: Merriweather, serif;
   color: #fff;
+  text-decoration: none;
+  background-color: #d05c2e;
+  border: 1px solid #a63f38;
+  font-size: 1.125rem;
+  display: block;
+  padding: .5em;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  overflow: hidden;
 }
